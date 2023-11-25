@@ -19,7 +19,7 @@ passwordInput.addEventListener("keyup", (e) => {
         if(isValid) {
             requirementItem.classList.add("valid");
             requirementItem.firstElementChild.className = "fa-solid fa-check";
-        }else {
+        } else {
             requirementItem.classList.remove("valid");
             requirementItem.firstElementChild.className = "fa-solid fa-circle";
         }
